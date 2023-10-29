@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div></div>
+        <h1>Coisas a fazer.</h1>
+        <button type="button" id="botao-expandir">Nova tarefa</button>
+    </header>
+    <form>
+        <div>
+            <input type="text" required placeholder="Digite sua tarefa"/>
+            <button type="submit">+</button>
+            <button type="button" id="recolher">Recolher</button>
+        </div>
+        <h3 id="instrucao">Após completá-la, clique na tarefa para concluí-la.</h3>
+    </form>
+    <div id="divisoria">
+        <img src="Imagens/Divisoria.png" alt="Linha divisória feita com lapis"/>
+    </div>
+    <ul>
+    </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
